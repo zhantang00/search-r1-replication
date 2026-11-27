@@ -1,0 +1,22 @@
+{
+  "name": "ppo_step200",
+  "mode": "search",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter": "/vol/runs/ppo/ckpt/step_0200/policy",
+  "dataset": "bamboogle",
+  "n": 125,
+  "correct": 16,
+  "em": 0.128,
+  "ci95": [
+    0.072,
+    0.192
+  ],
+  "mean_searches": 1.04,
+  "mean_turns": 2.04,
+  "answer_rate": 1.0,
+  "finish_counts": {
+    "answer": 125
+  },
+  "gpu": "NVIDIA A10",
+  "created_at": "2026-11-13 07:10:44"
+}

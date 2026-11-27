@@ -1,0 +1,22 @@
+{
+  "name": "official_grpo",
+  "mode": "search",
+  "model": "PeterJinGo/SearchR1-nq_hotpotqa_train-qwen2.5-3b-it-em-grpo",
+  "adapter": null,
+  "dataset": "bamboogle",
+  "n": 125,
+  "correct": 40,
+  "em": 0.32,
+  "ci95": [
+    0.24,
+    0.4
+  ],
+  "mean_searches": 1.904,
+  "mean_turns": 2.936,
+  "answer_rate": 1.0,
+  "finish_counts": {
+    "answer": 125
+  },
+  "gpu": "NVIDIA L40S",
+  "created_at": "2026-11-12 05:31:04"
+}

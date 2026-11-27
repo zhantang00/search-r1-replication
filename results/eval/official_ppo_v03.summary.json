@@ -1,0 +1,23 @@
+{
+  "name": "official_ppo_v03",
+  "mode": "search",
+  "model": "PeterJinGo/SearchR1-nq_hotpotqa_train-qwen2.5-3b-it-em-ppo-v0.3",
+  "adapter": null,
+  "dataset": "bamboogle",
+  "n": 125,
+  "correct": 34,
+  "em": 0.272,
+  "ci95": [
+    0.2,
+    0.352
+  ],
+  "mean_searches": 2.216,
+  "mean_turns": 3.288,
+  "answer_rate": 0.904,
+  "finish_counts": {
+    "answer": 113,
+    "max_turns": 12
+  },
+  "gpu": "NVIDIA L40S",
+  "created_at": "2026-11-12 05:31:24"
+}

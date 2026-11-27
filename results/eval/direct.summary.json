@@ -1,0 +1,22 @@
+{
+  "name": "direct",
+  "mode": "direct",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter": null,
+  "dataset": "bamboogle",
+  "n": 125,
+  "correct": 3,
+  "em": 0.024,
+  "ci95": [
+    0.0,
+    0.056
+  ],
+  "mean_searches": 0.0,
+  "mean_turns": 1.0,
+  "answer_rate": 1.0,
+  "finish_counts": {
+    "answer": 125
+  },
+  "gpu": "NVIDIA A10G",
+  "created_at": "2026-11-12 04:41:59"
+}

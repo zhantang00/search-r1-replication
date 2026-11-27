@@ -1,0 +1,22 @@
+{
+  "name": "ppo_step300",
+  "mode": "search",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter": "/vol/runs/ppo/ckpt/step_0300/policy",
+  "dataset": "bamboogle",
+  "n": 125,
+  "correct": 13,
+  "em": 0.104,
+  "ci95": [
+    0.056,
+    0.16
+  ],
+  "mean_searches": 1.0,
+  "mean_turns": 2.0,
+  "answer_rate": 1.0,
+  "finish_counts": {
+    "answer": 125
+  },
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "created_at": "2026-11-13 07:11:45"
+}

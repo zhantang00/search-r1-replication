@@ -1,0 +1,23 @@
+{
+  "name": "step0",
+  "mode": "search",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter": null,
+  "dataset": "bamboogle",
+  "n": 125,
+  "correct": 19,
+  "em": 0.152,
+  "ci95": [
+    0.088,
+    0.216
+  ],
+  "mean_searches": 0.88,
+  "mean_turns": 1.92,
+  "answer_rate": 0.992,
+  "finish_counts": {
+    "answer": 124,
+    "max_turns": 1
+  },
+  "gpu": "NVIDIA A10",
+  "created_at": "2026-11-12 06:13:47"
+}

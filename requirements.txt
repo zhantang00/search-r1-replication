@@ -1,0 +1,16 @@
+# Pins taken from the instructor's tiny-zero-lora requirements.txt, which were
+# co-resolved with vLLM 0.32.0's published CUDA dependencies.
+torch==2.13.0
+transformers==5.19.0
+datasets==5.1.0
+peft==0.21.2
+typing_extensions==4.16.0
+aiohttp==3.14.5
+vllm==0.32.0
+
+# Removed: trl[vllm]==1.17.1. This project writes its own PPO/GRPO loop, and
+# TRL removed PPOTrainer in v1.13.0, so TRL is not used anywhere.
+
+# Added for this project (used by the retriever in batch 2; installed now so
+# `pip check` surfaces any conflict on day 1). PyPI wheels support Python 3.10+.
+faiss-cpu==1.13.2

@@ -1,0 +1,23 @@
+{
+  "name": "grpo_step200",
+  "mode": "search",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter": "/vol/runs/grpo/ckpt/step_0200/policy",
+  "dataset": "bamboogle",
+  "n": 125,
+  "correct": 37,
+  "em": 0.296,
+  "ci95": [
+    0.216,
+    0.376
+  ],
+  "mean_searches": 2.304,
+  "mean_turns": 3.312,
+  "answer_rate": 0.936,
+  "finish_counts": {
+    "answer": 117,
+    "max_turns": 8
+  },
+  "gpu": "NVIDIA A10",
+  "created_at": "2026-11-13 07:03:20"
+}
